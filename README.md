@@ -89,6 +89,18 @@ For preprocessing and data downloading, we also need [polpo](https://geometric-i
 pip install polpo@git+https://github.com/geometric-intelligence/polpo.git@main
 ```
 
+Additional dependencies:
+
+
+```bash
+pip install requests trimesh pyvista jupyter
+```
+
+If you get a dead kernel when trying to plot with `pyvista`, do also:
+
+```bash
+conda install gcc=12.1.0
+```
 
 
 ## Resources
